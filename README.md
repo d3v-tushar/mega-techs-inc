@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mega Tech IT
 
-## Getting Started
+Mega Tech IT is a cutting-edge project designed to provide comprehensive IT solutions. This project leverages modern web technologies to deliver a seamless user experience.
 
-First, run the development server:
+## Technologies Used
+
+- **Next.js 14**: A powerful React framework for building server-side rendered applications.
+- **ReactJS**: A JavaScript library for building user interfaces.
+- **TypeScript**: A strongly typed programming language that builds on JavaScript.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+
+## Features
+
+- Comprehensive IT solutions
+- User-friendly interface
+- Responsive design
+- High performance
+
+## Installation
+
+To get started with the project, clone the repository and install the dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/d3v-tushar/mega-techs-inc
+cd mega-techs-inc
+yarn install
+or
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Running the Project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To start the development server, run:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+yarn dev
+or
+npm run dev
+```
 
-## Learn More
+## Building the Project
 
-To learn more about Next.js, take a look at the following resources:
+To build the project for production, run:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+yarn build
+or
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+The project is structured as follows:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+└── 📁src
+    └── 📁app
+        └── favicon.ico
+        └── layout.tsx
+        └── page.tsx
+        └── 📁[course]
+            └── not-found.tsx
+            └── page.tsx
+    └── 📁components
+        └── 📁course
+            └── course-card.tsx
+            └── course-section.tsx
+        └── 📁shared
+            └── banner.tsx
+            └── contact-us.tsx
+            └── footer.tsx
+            └── header.tsx
+            └── logo-cloud.tsx
+            └── why-us.tsx
+    └── 📁lib
+        └── constants.ts
+        └── declarations.ts
+    └── 📁styles
+        └── globals.css
+```
