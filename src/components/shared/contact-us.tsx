@@ -19,11 +19,11 @@ const ContactUs = () => {
               <p className="flex items-start -mx-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400"
+                  className="w-6 h-6 mx-2 text-blue-500"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  stroke-width="2"
+                  strokeWidth="2"
                 >
                   <path
                     strokeLinecap="round"
@@ -37,7 +37,7 @@ const ContactUs = () => {
                   />
                 </svg>
 
-                <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
+                <span className="mx-2 text-gray-700 truncate w-72">
                   91-17 187 ST Jamaica, NY-11423
                 </span>
               </p>
@@ -45,11 +45,11 @@ const ContactUs = () => {
               <p className="flex items-start -mx-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400"
+                  className="w-6 h-6 mx-2 text-blue-500"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  stroke-width="2"
+                  strokeWidth="2"
                 >
                   <path
                     strokeLinecap="round"
@@ -58,7 +58,7 @@ const ContactUs = () => {
                   />
                 </svg>
 
-                <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
+                <span className="mx-2 text-gray-700 truncate w-72">
                   +1 (347) 445-5355
                 </span>
               </p>
@@ -66,11 +66,11 @@ const ContactUs = () => {
               <p className="flex items-start -mx-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400"
+                  className="w-6 h-6 mx-2 text-blue-500"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  stroke-width="2"
+                  strokeWidth="2"
                 >
                   <path
                     strokeLinecap="round"
@@ -79,15 +79,23 @@ const ContactUs = () => {
                   />
                 </svg>
 
-                <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
+                <span className="mx-2 text-gray-700 truncate w-72">
                   megatechsusa@gmail.com
                 </span>
               </p>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.328479662516!2d-73.77502102358648!3d40.710784837689495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2611377f160eb%3A0x4e7466028ba5ddb1!2s90-32%20186th%20St%2C%20Jamaica%2C%20NY%2011423%2C%20USA!5e0!3m2!1sen!2sbd!4v1716599597881!5m2!1sen!2sbd"
+                className="border-0 w-full block lg:hidden"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
 
           <div className="lg:w-1/2 lg:mx-6">
-            <div className="w-full p-8 px-0 lg:px-8 mx-auto overflow-hidden bg-white rounded-md lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
+            <div className="w-full p-8 px-0 lg:px-8 mx-auto overflow-hidden bg-white rounded-md lg:max-w-xl shadow-gray-300/50">
               <h1 className="text-lg font-medium text-gray-700">
                 What do you want to ask
               </h1>
@@ -116,7 +124,7 @@ const ContactUs = () => {
                 </div>
 
                 <div className="w-full mt-6">
-                  <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                  <label className="block mb-2 text-sm text-gray-600">
                     Message
                   </label>
                   <textarea

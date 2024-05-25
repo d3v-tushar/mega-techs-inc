@@ -102,19 +102,19 @@ const WhyUs = () => {
                   <path
                     d="M5 16.4754C11.7688 27.4499 21.2452 57.3224 5 89.0164"
                     stroke="currentColor"
-                    stroke-width="10"
+                    strokeWidth="10"
                     strokeLinecap="round"
                   />
                   <path
                     d="M33.6761 112.104C44.6984 98.1239 74.2618 57.6776 83.4821 5"
                     stroke="currentColor"
-                    stroke-width="10"
+                    strokeWidth="10"
                     strokeLinecap="round"
                   />
                   <path
                     d="M50.5525 130C68.2064 127.495 110.731 117.541 116 78.0874"
                     stroke="currentColor"
-                    stroke-width="10"
+                    strokeWidth="10"
                     strokeLinecap="round"
                   />
                 </svg>

@@ -86,7 +86,7 @@ const Header = () => {
               </ul>
             </div>
 
-            <div
+            {/* <div
               className="w-full min-w-max space-y-2 space-x-1 px-1 
                     border-blue-400 lg:space-y-0 sm:w-max lg:border-l"
             >
@@ -106,7 +106,7 @@ const Header = () => {
                   Sign in
                 </span>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

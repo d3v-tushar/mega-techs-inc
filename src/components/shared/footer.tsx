@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="w-full p-4">
         <div className="lg:flex max-w-[1440px] mx-auto">
           <div className="w-full -mx-6 lg:w-2/5">
-            <div className="px-6">
+            <div className="px-6 space-y-2.5">
               <Link href="#">
                 <Image
                   width={200}
@@ -17,7 +17,7 @@ const Footer = () => {
                 />
               </Link>
 
-              <p className="max-w-sm mt-2 text-gray-500">
+              <p className="max-w-sm mt-2 text-gray-500 text-sm">
                 We&apos;ll help you transform your career and be a leader in the
                 tech world. Ready to start your journey to mastering IT? Join us
                 and see your skills soar!
@@ -26,7 +26,7 @@ const Footer = () => {
               <div className="flex mt-6 -mx-2">
                 <a
                   href="#"
-                  className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                  className="mx-2 text-gray-600 transition-colors duration-300 hover:text-blue-500"
                   aria-label="Reddit"
                 >
                   <svg
@@ -41,7 +41,7 @@ const Footer = () => {
 
                 <a
                   href="#"
-                  className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                  className="mx-2 text-gray-600 transition-colors duration-300 hover:text-blue-500"
                   aria-label="Facebook"
                 >
                   <svg
@@ -56,7 +56,7 @@ const Footer = () => {
 
                 <a
                   href="#"
-                  className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                  className="mx-2 text-gray-600 transition-colors duration-300 hover:text-blue-500"
                   aria-label="Github"
                 >
                   <svg
@@ -73,7 +73,7 @@ const Footer = () => {
           </div>
 
           <div className="mt-6 lg:mt-0 lg:flex-1">
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2">
               <div>
                 <h3 className="text-gray-700 uppercase font-semibold">About</h3>
                 <a
@@ -95,52 +95,6 @@ const Footer = () => {
                   Careers
                 </a>
               </div>
-
-              <div>
-                <h3 className="text-gray-700 uppercase font-semibold">Blog</h3>
-                <a
-                  href="#"
-                  className="block mt-2 text-sm text-gray-600 hover:underline"
-                >
-                  Tec
-                </a>
-                <a
-                  href="#"
-                  className="block mt-2 text-sm text-gray-600hover:underline"
-                >
-                  Music
-                </a>
-                <a
-                  href="#"
-                  className="block mt-2 text-sm text-gray-600 hover:underline"
-                >
-                  Videos
-                </a>
-              </div>
-
-              {/* <div>
-                <h3 className="text-gray-700 uppercase dark:text-white">
-                  Products
-                </h3>
-                <a
-                  href="#"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  Mega cloud
-                </a>
-                <a
-                  href="#"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  Aperion UI
-                </a>
-                <a
-                  href="#"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  Meraki UI
-                </a>
-              </div> */}
 
               <div>
                 <h3 className="text-gray-700 uppercase font-semibold">
