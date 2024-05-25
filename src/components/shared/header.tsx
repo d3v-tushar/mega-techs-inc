@@ -53,7 +53,7 @@ const Header = () => {
             htmlFor="toggle_nav"
             className="hidden peer-checked:block fixed w-full h-screen left-0 p-4 top-0 z-10 bg-blue-200 bg-opacity-30 backdrop-blur-md backdrop-filter"
           />
-          <div className="hidden peer-checked:flex flex-col lg:flex lg:flex-row justify-end z-30 items-center gap-y-6 p-6 rounded-xl bg-white dark:bg-gray-900 lg:gap-y-0 lg:p-0 md:flex-nowrap lg:bg-transparent w-11/12 mx-auto lg:mx-0 lg:w-7/12 lg:ml-auto">
+          <div className="hidden peer-checked:flex flex-col lg:flex lg:flex-row justify-end z-30 items-center gap-y-6 p-6 rounded-xl bg-white lg:gap-y-0 lg:p-0 md:flex-nowrap lg:bg-transparent w-11/12 mx-auto lg:mx-0 lg:w-7/12 lg:ml-auto">
             <div className="text-gray-600 lg:pr-4 w-full">
               <ul
                 className="tracking-wide font-medium  text-sm 
@@ -62,7 +62,7 @@ const Header = () => {
                 <li>
                   <Link
                     href="/#root"
-                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                    className="block md:px-4 transition hover:text-yellow-700"
                   >
                     <span>Home</span>
                   </Link>
@@ -70,7 +70,7 @@ const Header = () => {
                 <li>
                   <Link
                     href="#courses"
-                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                    className="block md:px-4 transition hover:text-yellow-700"
                   >
                     <span>Courses</span>
                   </Link>
@@ -78,7 +78,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#contact"
-                    className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                    className="block md:px-4 transition hover:text-yellow-700"
                   >
                     <span>Contact</span>
                   </a>
