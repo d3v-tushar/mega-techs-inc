@@ -11,7 +11,10 @@ interface CourseCardProps {
 }
 const CourseCard = ({ course }: CourseCardProps) => {
   return (
-    <div className="grid grid-cols-3 shadow-sm items-start justify-center rounded-md p-4 gap-2.5 bg-gradient-to-t from-slate-100 to-slate-200 cursor-default">
+    <Link
+      href={`/${course.id}`}
+      className="grid grid-cols-3 shadow-sm items-start justify-center rounded-md p-4 gap-2.5 bg-gradient-to-t from-slate-100 to-slate-200 cursor-default"
+    >
       <div className="aspect-square col-span-1">
         <Image
           width={96}
@@ -27,10 +30,7 @@ const CourseCard = ({ course }: CourseCardProps) => {
           {course.name}
         </h3>
         <p className="line-clamp-2">{course.description}</p>
-        <Link
-          href={`/${course.id}`}
-          className="flex items-center justify-between group-hover:text-primary"
-        >
+        <span className="flex items-center justify-between group-hover:text-primary">
           <span className="text-sm text-blue-400 font-semibold">Read more</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -44,9 +44,9 @@ const CourseCard = ({ course }: CourseCardProps) => {
               clipRule="evenodd"
             />
           </svg>
-        </Link>
+        </span>
       </div>
-    </div>
+    </Link>
   );
 };
 
