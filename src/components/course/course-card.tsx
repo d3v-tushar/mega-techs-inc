@@ -27,8 +27,8 @@ const CourseCard = ({ course }: CourseCardProps) => {
           {course.name}
         </h3>
         <p className="line-clamp-2">{course.description}</p>
-        <a
-          href="#"
+        <Link
+          href={`/${course.id}`}
           className="flex items-center justify-between group-hover:text-primary"
         >
           <span className="text-sm text-blue-400 font-semibold">Read more</span>
@@ -44,7 +44,7 @@ const CourseCard = ({ course }: CourseCardProps) => {
               clip-rule="evenodd"
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   );

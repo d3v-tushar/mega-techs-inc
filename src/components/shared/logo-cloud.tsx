@@ -6,7 +6,7 @@ const LogoCloud = () => {
     >
       <div className="flex flex-col gap-y-2 py-2.5 px-5 lg:px-2 lg:py-2.5 border-b">
         <h2 className="text-2xl font-bold uppercase text-blue-900">Clients</h2>
-        <h3 className="text-lg font-medium">
+        <h3 className="text-base lg:text-lg font-medium">
           We have already worked for +20 companies & Your favorite companies are
           our clients.
         </h3>

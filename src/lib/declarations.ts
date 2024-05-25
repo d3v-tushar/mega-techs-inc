@@ -3,4 +3,6 @@ export type ICourse = {
   name: string;
   image: string;
   description: string;
+  lession: number;
+  enrolled: number;
 };

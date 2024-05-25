@@ -14,7 +14,7 @@ const Header = () => {
           />
           <div className="w-full px-6 flex justify-between lg:w-max md:px-0 z-40">
             <a
-              href="#"
+              href="/"
               aria-label="logo"
               className="flex space-x-2 items-center"
             >
