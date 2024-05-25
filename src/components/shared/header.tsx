@@ -33,7 +33,7 @@ const Header = () => {
                 htmlFor="toggle_nav"
                 aria-label="humburger"
                 id="hamburger"
-                className="relative w-10 h-auto p-2"
+                className="relative w-10 h-auto p-2 peer-checked:[&>*:nth-child(odd)]:bg-slate-200 peer-checked:[&>*:nth-child(even)]:bg-slate-200 peer-checked:[&>*:nth-child(odd)]:rotate-45 peer-checked:[&>*:nth-child(odd)]:translate-y-1.5 peer-checked:[&>*:nth-child(even)]:-rotate-45 peer-checked:[&>*:nth-child(even)]:-translate-y-1 z-[90]"
               >
                 <div
                   id="line"
@@ -51,7 +51,7 @@ const Header = () => {
             aria-label="toggle nav"
             role="button"
             htmlFor="toggle_nav"
-            className="hidden peer-checked:block fixed w-full h-screen left-0 p-4 top-0 z-10 bg-blue-200 bg-opacity-30 backdrop-blur-md backdrop-filter"
+            className="hidden peer-checked:block fixed w-full h-screen left-0 p-4 top-0 z-10 bg-blue-200 bg-opacity-30 backdrop-blur backdrop-filter"
           />
           <div className="hidden peer-checked:flex flex-col lg:flex lg:flex-row justify-end z-30 items-center gap-y-6 p-6 rounded-xl bg-white lg:gap-y-0 lg:p-0 md:flex-nowrap lg:bg-transparent w-11/12 mx-auto lg:mx-0 lg:w-7/12 lg:ml-auto">
             <div className="text-gray-600 lg:pr-4 w-full">
@@ -85,28 +85,6 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-
-            {/* <div
-              className="w-full min-w-max space-y-2 space-x-1 px-1 
-                    border-blue-400 lg:space-y-0 sm:w-max lg:border-l"
-            >
-              <button
-                type="button"
-                title="Start buying"
-                className="w-full py-3 px-6 text-center rounded-full transition active:bg-blue-200 focus:bg-blue-100 sm:w-max"
-              >
-                <span className="blocks font-semibold text-sm">Sign up</span>
-              </button>
-              <button
-                type="button"
-                title="Start buying"
-                className="w-full py-3 px-6 text-center rounded-full transition bg-blue-300 hover:bg-blue-400 active:bg-blue-400 focus:bg-blue-300 sm:w-max"
-              >
-                <span className="block text-white font-semibold text-sm">
-                  Sign in
-                </span>
-              </button>
-            </div> */}
           </div>
         </div>
       </div>

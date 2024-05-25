@@ -13,7 +13,7 @@ const CourseCard = ({ course }: CourseCardProps) => {
   return (
     <Link
       href={`/${course.id}`}
-      className="grid grid-cols-3 shadow-sm items-start justify-center rounded-md p-4 gap-2.5 bg-gradient-to-t from-slate-100 to-slate-200 cursor-default"
+      className="grid grid-cols-3 cursor-pointer shadow-sm items-start justify-center rounded-md p-4 gap-2.5 bg-gradient-to-t from-slate-100 to-slate-200"
     >
       <div className="aspect-square col-span-1">
         <Image
