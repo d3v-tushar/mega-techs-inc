@@ -13,7 +13,7 @@ const CourseCard = ({ course }: CourseCardProps) => {
   return (
     <Link
       href={`/${course.id}`}
-      className="grid grid-cols-3 cursor-pointer shadow-sm items-start justify-center rounded-md p-4 gap-2.5 bg-gradient-to-t from-slate-100 to-slate-200"
+      className="grid grid-cols-3 cursor-pointer shadow-sm items-start justify-center rounded-md p-4 gap-2.5 bg-gradient-to-t from-slate-100 to-slate-200 min-h-[172px] max-h-[200px]"
     >
       <div className="aspect-square col-span-1">
         <Image
@@ -26,12 +26,12 @@ const CourseCard = ({ course }: CourseCardProps) => {
         />
       </div>
       <div className="col-span-2 flex flex-col gap-y-2">
-        <h3 className="text-base md:text-lg lg:text-xl font-semibold text-gray-800">
+        <h3 className="text-base md:text-lg xl:text-xl font-semibold text-gray-800 line-clamp-2 xl:line-clamp-3">
           {course.name}
         </h3>
         <p className="line-clamp-2">{course.description}</p>
         <span className="flex items-center justify-between group-hover:text-primary">
-          <span className="text-sm text-blue-400 font-semibold">Read more</span>
+          <span className="text-sm text-blue-400 font-medium">Read more</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"

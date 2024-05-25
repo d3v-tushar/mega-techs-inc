@@ -83,15 +83,13 @@ const ContactUs = () => {
                   megatechsusa@gmail.com
                 </span>
               </p>
-
               <iframe
                 aria-label="map location"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.328479662516!2d-73.77502102358648!3d40.710784837689495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2611377f160eb%3A0x4e7466028ba5ddb1!2s90-32%20186th%20St%2C%20Jamaica%2C%20NY%2011423%2C%20USA!5e0!3m2!1sen!2sbd!4v1716599597881!5m2!1sen!2sbd"
-                className="border-0 w-full block lg:hidden"
+                className="border-0 w-full h-full min-h-[300px] block"
                 allowFullScreen={false}
-                loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+              />
             </div>
           </div>
 

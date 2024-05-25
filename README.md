@@ -52,7 +52,7 @@ npm run build
 
 The project is structured as follows:
 
-```
+```text
 └── 📁src
     └── 📁app
         └── favicon.ico

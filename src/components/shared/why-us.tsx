@@ -15,7 +15,7 @@ const features = [
 
 const WhyUs = () => {
   return (
-    <section className="w-full max-w-[1440px] py-10 sm:px-6 lg:py-14 mx-auto space-y-2.5">
+    <section className="w-full max-w-[1440px] py-10 sm:px-6 lg:py-14 mx-auto space-y-2.5 overflow-hidden">
       <div className="flex flex-col gap-y-2 py-2.5 px-5 lg:px-2 lg:py-2.5 border-b">
         <h2 className="text-2xl font-bold uppercase text-blue-900">Why Us?</h2>
         <h3 className="text-base lg:text-lg capitalize font-medium">
